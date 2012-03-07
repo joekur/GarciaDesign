@@ -1,0 +1,264 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+	background: white;
+	
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+:focus {
+	outline: none;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+h2, h3 {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+a#logo {
+	position: fixed;
+	left: 50%;
+	margin-left: -570px;
+	top: 50%;
+	margin-top: -265px;
+	z-index: 1000;
+}
+a#logo img {
+	border: none;
+}
+
+#navbar {
+	position: fixed;
+	left: 50%;
+	margin-left: -340px;
+	top: 50%;
+	margin-top: -130px;
+	z-index: 999;
+}
+#navbar a {
+	text-decoration: none;
+}
+#navbar a.nav_icon {
+	display: block;
+	position: relative;
+}
+#navbar a.nav_icon img {
+	/*width: 54px;
+	height: 43px;*/
+	border: none;
+}
+
+#navbar a .label {
+	position: absolute;
+	right: 65px;
+	top: 10px;
+	width: 200px;
+	text-align: right;
+	text-decoration: none;
+	font-style: italic;
+	color: #777;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+.wrapper {
+	height: 302%;
+	width: 302%;
+	position: relative;
+}
+
+.page {
+	width: 33%;	
+	height: 33%;
+	position: relative;
+}
+
+.empty_page {
+	width: 33%;	
+	height: 33%;
+	position: relative;
+}
+
+.content {
+	width: 800px;
+	height: 450px;
+	margin: 0 auto;
+	top: 20%;
+	position: relative;
+	left: 120px;
+	background: white;
+	
+	/*border: solid 1px black;
+	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.78);*/
+}
+
+.home_content {
+	padding: 20px;
+}
+
+.content .left {
+	height: 100%;
+	width: 500px;
+	position: relative;
+}
+
+.proj_desc {
+	width: 266px;
+	height: 410px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 20px 20px 20px 10px;
+}
+
+.column {
+	float: left;
+}
+
+#home p {
+	font-size: 10pt;
+}
+
+
+/*------------------------------------- PHOTO BOX -----------------------------------------*/
+
+.photo_box {
+	width: 452px;
+	height: 402px;
+	border: 4px solid black;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background: black;
+}
+
+.photo_box .animating,
+.photo_box .fullscreen {
+	z-index: 100;
+}
+
+.photo_wrapper {
+	opacity: 0.5;
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+.photo_wrapper:hover,
+.photo_wrapper.animating,
+.photo_wrapper.fullscreen {
+	opacity: 1;
+}
+.photo_wrapper > img {
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+.photo_wrapper:hover > img,
+.photo_wrapper.animating > img,
+.photo_wrapper.fullscreen > img{
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.photo_box .top_left {
+	width: 250px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.photo_box .top_right {
+	width: 200px;
+	height: 180px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-bottom: 2px solid black;
+}
+
+.photo_box .bottom_left {
+	width: 250px;
+	height: 160px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-right: 2px solid black;
+}
+
+.photo_box .bottom_right {
+	width: 200px;
+	height: 220px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.photo_wrapper {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+}
+
+img.project {
+	/*width: 452px;
+	height: 402px;*/
+	position: absolute;
+}
+
+.top_left .photo_wrapper,
+.top_left img.project {
+	top: 0;
+	left: 0;
+}
+.top_right .photo_wrapper,
+.top_right img.project {
+	top: 0;
+	right: 0;
+}
+.bottom_left .photo_wrapper,
+.bottom_left img.project {
+	bottom: 0;
+	left: 0;
+}
+.bottom_right .photo_wrapper,
+.bottom_right img.project {
+	bottom: 0;
+	right: 0;
+}
+
+
+/*------------------------------------- VIDEO -----------------------------------------*/
+
+.video_player {
+	width: 452px;
+	height: 402px;
+	border: 4px solid black;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background: black;
+}
+
+/*------------------------------------- FONTS -----------------------------------------*/
+
+@font-face {
+ font-family: helvetica-light;
+ src: url("/Fonts/helveticaneuelight.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: helvetica-light;
+ src: url("/Fonts/helveticaneuelight.ttf") /* TTF file for CSS3 browsers */
+}
