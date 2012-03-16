@@ -66,7 +66,7 @@
 							</div>
 						</div>
 						<div class="photo top_right">
-							<div class="photo_wrapper">
+							<div class="photo_wrapper noClick">
 								<img src="/img/Chere.jpg" class="project">
 							</div>
 						</div>
@@ -83,12 +83,11 @@
 					</div>
 				</div>
 				
-				<div class="proj_desc">
-				
-			
-						
+				<div class="proj_desc persistent">
 					<h4>Interested in working with me? garciadesign.me@gmail.com</h4>
 				</div>
+				
+				
 			</div>
 		</div>
 				
@@ -111,7 +110,7 @@
 					</script>
 				</div>
 				
-				<div class="proj_desc">
+				<div class="proj_desc main">
 					<h2>AWAKENING</h2>
 				
 					<p>This project involves the union of type, image, design and sound to describe an experience.</p> 
@@ -151,7 +150,7 @@
 					</div>
 				</div>
 				
-				<div class="proj_desc">
+				<div class="proj_desc main">
 					<h2>REDESCOVERING NATURE</h2>
 					
 					<p>This project involved the use of collage, typography, and image to create a new and fresh way to deliver information about a lecture entitled
@@ -166,6 +165,25 @@
 					
 					<p>Tools used: Illustrator, Flash</p>
 				</div>
+				
+				
+				<div class="proj_desc top_left">
+				  top left photo
+				</div>
+				
+				<div class="proj_desc top_right">
+				  top right photo
+				</div>
+				
+				<div class="proj_desc bottom_left">
+				  bottom left photo
+				</div>
+				
+				<div class="proj_desc bottom_right">
+				  bottom right photo
+				</div>
+				
+				
 			</div>
 		</div>
 		
@@ -182,7 +200,7 @@
 							</div>
 						</div>
 						<div class="photo top_right">
-							<div class="photo_wrapper noClick">
+							<div class="photo_wrapper">
 								<img src="/img/photos/shoe.png" class="project">
 							</div>
 						</div>
@@ -199,8 +217,7 @@
 					</div>
 				</div>
 				
-				<div class="proj_desc">
-				
+				<div class="proj_desc main">
 					<p>My favorite type of photography is that of accidental beauty. I love capturing someones true emotion, 
 					stance, and motion. An example of this can be found in the top left photo. This particular girl was anything but camera 
 					shy and I had no problem getting her to smile. When her bow became loose she stopped to re-tie it, and as she did 
@@ -208,6 +225,24 @@
 					couldn't resist this image.</p>
 					<p>Tools used: Cannon Rebel t2i, Photoshop</p>
 				</div>
+				
+				<div class="proj_desc top_left">
+				  top left photo
+				</div>
+				
+				<div class="proj_desc top_right">
+				  top right photo
+				</div>
+				
+				<div class="proj_desc bottom_left">
+				  bottom left photo
+				</div>
+				
+				<div class="proj_desc bottom_right">
+				  bottom right photo
+				</div>
+				
+				
 			</div>
 		</div>
 		
@@ -254,7 +289,7 @@
 					</div>
 				</div>
 				
-				<div class="proj_desc">
+				<div class="proj_desc main">
 					<h3>Top left: "GIRL"</h3>
 				    <p>Tools used: Paper, Pencil, Charcoal</p> 
 					<h3>Top Right: "Brain Baths"</h3>
@@ -263,10 +298,25 @@
 					<p>Tools used: Oil Paint, Canvas</p>
 					<h3>Bottom right: "Flor"</h3>
 					<p>Tools used: Black and white paper, Exacto knife, Rubber Cement</p>
-					
-					
-					
 				</div>
+				
+				<div class="proj_desc top_left">
+				  top left photo
+				</div>
+				
+				<div class="proj_desc top_right">
+				  top right photo
+				</div>
+				
+				<div class="proj_desc bottom_left">
+				  bottom left photo
+				</div>
+				
+				<div class="proj_desc bottom_right">
+				  bottom right photo
+				</div>
+				
+				
 			</div>
 			
 		</div>

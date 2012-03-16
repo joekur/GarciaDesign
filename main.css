@@ -119,6 +119,15 @@ a#logo img {
 	right: 0;
 	top: 0;
 	padding: 20px 20px 20px 10px;
+	display: none;
+}
+
+.proj_desc.main {
+	display: block;
+}
+
+.proj_desc.persistent {
+	display: block;
 }
 
 .column {
