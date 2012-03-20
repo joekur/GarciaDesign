@@ -5,7 +5,8 @@ $(document).ready(function() {
 	var numRows = 3;
 	var navLinks = $('#navbar a');
 	var navbar = $('#navbar');
-	var navIcons = $('#navbar a img')
+	var navIcons = $('#navbar a img');
+	var body = $('body');
 	
 	/*function initializePageFromURL() {
 		var anchor = window.location.hash;
@@ -107,6 +108,54 @@ $(document).ready(function() {
     });
     
     $('body').scrollTo(mainPage,0); // start the site on the mainPage, defined above
+    
+    
+    
+    ///////////////////////
+    // PROJECT SUB-PAGES //
+    ///////////////////////
+    
+    
+    $('.content').each( function() {
+    	var subcontents = $(this).children('.sub_content');
+    	subcontents.first().show();
+    });
+    
+    $('.pagination').click( function() {
+    	changePage($(this));
+    });
+    
+    function changePage(pagination) {
+    	
+    	if (body.hasClass('animating') || pagination.hasClass('active')) {
+			return;
+		}
+		body.addClass('animating');
+		
+		var container = pagination.parent();
+		var paginations = container.children();
+		var ind = paginations.index(pagination);
+		paginations.removeClass('active');
+		pagination.addClass('active');
+		
+		var page_container = container.closest('.content');
+		var pages = page_container.children('.sub_content');
+		var current_page = pages.filter('.active');
+		var next_page = pages.find('.sub_content:nth-child(' + (ind+1) + ')');
+		next_page = pages.eq(ind);
+		
+		current_page.fadeOut(600, function() {
+			
+			pages.removeClass('active');
+			next_page.fadeIn(600, function() {
+				$(this).addClass('active');
+				body.removeClass('animating');
+			});
+			
+		});
+    	
+    }
+    
     
 	
 });
