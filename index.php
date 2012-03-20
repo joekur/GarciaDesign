@@ -13,6 +13,8 @@
 		<script src="js/scrolling.js"></script>
 		<script src="js/photos.js"></script>
 		<script src="/video/flowplayer/flowplayer-3.2.6.min.js"></script>
+		
+		<?php include_once('lib/helper.php') ?>
 	</head>
 	
 	

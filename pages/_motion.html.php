@@ -40,12 +40,8 @@
 			</div>
 		</div>
 		
-		<div class="pagination-container-container">
-			<div class="pagination-container">
-				<div class="pagination active"></div>
-				<div class="pagination"></div>
-			</div>
-		</div>
+		<?= paginate(2) ?>
+		
 		
 	</div>
 	
