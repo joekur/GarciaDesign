@@ -5,14 +5,15 @@ $(document).ready( function() {
 	var photo_box_width = photo_box.width();
 	var photo_box_height = photo_box.height();
 	
-	photo_wrappers.each( function() {
-		$(this).attr('orig_width', $(this).width());
-		$(this).attr('orig_height', $(this).height());
-	});
+	// photo_wrappers.each( function() {
+		// $(this).attr('data-orig_width', $(this).width());
+		// $(this).attr('data-orig_height', $(this).height());
+	// });
 	
 	photo_wrappers.click( function() {
 		
-		if ($(this).hasClass('animating') || $(this).hasClass('noClick')) {
+		if ($(this).hasClass('animating') || $(this).hasClass('noClick') || $('body').hasClass('animating'))
+		{
 			return false;
 		}
 		$(this).addClass('animating');
@@ -28,7 +29,7 @@ $(document).ready( function() {
 		} else {
 			corner = "bottom_right";
 		}
-		var page = $(this).parents('.page');
+		var page = $(this).parents('.sub_content');
 		
 		
 		if (!$(this).hasClass('fullscreen')) {
@@ -53,8 +54,8 @@ $(document).ready( function() {
 			// return to original size
 			$(this).removeClass('fullscreen');
 			$(this).animate({
-				width: $(this).attr('orig_width'),
-				height: $(this).attr('orig_height')
+				width: $(this).attr('data-orig_width'),
+				height: $(this).attr('data-orig_height')
 			}, 600, function() {
 				// done animating
 				$(this).removeClass('animating');

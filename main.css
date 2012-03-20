@@ -136,6 +136,7 @@ a#logo img {
 	height: 12px;
 	display: inline-block;
 	cursor: pointer;
+	margin: 0 3px;
 }
 
 .pagination.active {

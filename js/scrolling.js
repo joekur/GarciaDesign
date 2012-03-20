@@ -15,6 +15,10 @@ $(document).ready(function() {
 	}*/
 	
 	
+	// make sure we start at top
+	//body.scrollTo(0);
+	
+	
 	/////////
 	// NAV //
 	/////////
@@ -53,7 +57,7 @@ $(document).ready(function() {
 	    $('.content').css({top: top_pad});
 	 
 	    //if the item is displayed incorrectly, set it to the corrent pos
-	    $('body').scrollTo($('#navbar a.selected').attr('href'), 0);
+	    body.scrollTo($('#navbar a.selected').attr('href'), 0);
 	         
 	}
 	
