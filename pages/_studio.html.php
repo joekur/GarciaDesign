@@ -2,39 +2,42 @@
 	<!-------------------------------- STUDIO ------------------------------------->
 	<div class="content">
 		
-		<?php
-			$tl_img = "/img/studio/lady_charc.png";
-			$tr_img = "/img/studio/brain_paint.png";
-			$bl_img = "/img/studio/landscape_paint.png";
-			$br_img = "/img/studio/D1.jpg";
-			include($_SERVER['DOCUMENT_ROOT'] . "/partials/_photo_box.html.php");
-		?>
+		<div class="sub_content active">
 		
-		<div class="proj_desc main">
-			<h3>Top left: "GIRL"</h3>
-		    <p>Tools used: Paper, Pencil, Charcoal</p> 
-			<h3>Top Right: "Brain Baths"</h3>
-			<p>Tools used: Gauche, Paper</p>
-			<h3>Bottom Left: "Landscape"</h3>
-			<p>Tools used: Oil Paint, Canvas</p>
-			<h3>Bottom right: "Flor"</h3>
-			<p>Tools used: Black and white paper, Exacto knife, Rubber Cement</p>
-		</div>
+			<?php
+				$tl_img = "/img/studio/lady_charc.png";
+				$tr_img = "/img/studio/brain_paint.png";
+				$bl_img = "/img/studio/landscape_paint.png";
+				$br_img = "/img/studio/D1.jpg";
+				include($_SERVER['DOCUMENT_ROOT'] . "/partials/_photo_box.html.php");
+			?>
+			
+			<div class="proj_desc main">
+						    
 		
-		<div class="proj_desc top_left">
-		  top left photo
-		</div>
-		
-		<div class="proj_desc top_right">
-		  top right photo
-		</div>
-		
-		<div class="proj_desc bottom_left">
-		  bottom left photo
-		</div>
-		
-		<div class="proj_desc bottom_right">
-		  bottom right photo
+				
+			</div>
+			
+			<div class="proj_desc top_left">
+			  <h3>"Girl"</h3>
+			  A portrait of a live model created with one of my favorite mediums, charcoal. 
+			</div>
+			
+			<div class="proj_desc top_right">
+			<h3>"Brain Baths"</h3>
+			  Tools used: gauche paint 
+			  		</div>
+			
+			<div class="proj_desc bottom_left">
+			  <h3>"Landscape"</h3>
+				Tools used: Oil Paint, Canvas
+			</div>
+			
+			<div class="proj_desc bottom_right">
+			  <h3>Bottom right: "Flor"</h3>
+			  Tools used: Black and white paper, Exacto knife, Rubber Cement
+			</div>
+			
 		</div>
 		
 		

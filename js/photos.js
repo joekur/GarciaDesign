@@ -14,6 +14,7 @@ $(document).ready( function() {
 		
 		if ($(this).hasClass('animating') || $(this).hasClass('noClick') || $('body').hasClass('animating'))
 		{
+			console.log('no go!');
 			return false;
 		}
 		$(this).addClass('animating');
@@ -51,6 +52,7 @@ $(document).ready( function() {
 			});
 			
 		} else {
+			
 			// return to original size
 			$(this).removeClass('fullscreen');
 			$(this).animate({

@@ -2,7 +2,10 @@
 	<!-------------------------------- MOTION ------------------------------------->
 	<div class="content">
 		
+		
+		
 		<div class="sub_content active">
+			
 			<div class="left">
 				<div id="experience_player" class="video_player">
 				</div>
@@ -27,7 +30,10 @@
 			</div>
 		</div>
 		
+		
+		
 		<div class="sub_content">
+			
 			<div class="left">
 				<div id="experience_player" class="video_player">
 				</div>

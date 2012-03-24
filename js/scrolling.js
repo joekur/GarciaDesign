@@ -15,10 +15,6 @@ $(document).ready(function() {
 	}*/
 	
 	
-	// make sure we start at top
-	//body.scrollTo(0);
-	
-	
 	/////////
 	// NAV //
 	/////////
@@ -42,7 +38,7 @@ $(document).ready(function() {
 	//////////////
 	
 	function resizePanel() {
- 
+ 		
 	    //get the browser width and height
 	    var width = $(window).width();
 	    var height = $(window).height();
@@ -64,6 +60,7 @@ $(document).ready(function() {
 	//resize all the items according to the new browser size
     $(window).resize( resizePanel );
 	resizePanel();
+	setTimeout(resizePanel, 1000);
 	
 	
 	
