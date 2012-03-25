@@ -8,11 +8,12 @@ $(document).ready(function() {
 	var navIcons = $('#navbar a img');
 	var body = $('body');
 	
-	/*function initializePageFromURL() {
-		var anchor = window.location.hash;
-		var page = $(anchor);
-		$('body').scrollTo(page, 800);
-	}*/
+	
+	
+	function resetPhotobox(photobox) {
+		console.log(photobox);
+		photobox.find('.fullscreen').trigger('click');
+	}
 	
 	
 	/////////
@@ -83,7 +84,6 @@ $(document).ready(function() {
         var current_page = $(current_page_id);
         
         if (destination_id == current_page_id) {
-        	console.log('same page');
         	return false;
         }
         
@@ -92,8 +92,8 @@ $(document).ready(function() {
         
         // scroll to destination
         $('body').scrollTo(destination_page, 800, function() {
-        	// change anchor tag
-     		//window.location.hash = destination_id;
+        	// done scrolling
+        	resetPhotobox(current_page.find('.photo_box'));
         });
         
         // wrap empty page around original page
@@ -149,8 +149,11 @@ $(document).ready(function() {
 			
 			pages.removeClass('active');
 			next_page.fadeIn(600, function() {
+				// done fading
 				$(this).addClass('active');
 				body.removeClass('animating');
+				resetPhotobox(current_page.find('.photo_box'));
+				current_page.find('.proj_desc').not('.main').hide();
 			});
 			
 		});
