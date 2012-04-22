@@ -85,9 +85,13 @@
 				
 			<?php
 			$images = array(
-				'/img/GDesign/CL11.png',
+				'/img/GDesign/CL1.png',
 				'/img/GDesign/CL2.png',
-				'/img/GDesign/CL3.png'
+				'/img/GDesign/CL3.png',
+				'/img/GDesign/CL4.png',
+				'/img/GDesign/CL5.png',
+				'/img/GDesign/CL6.png',
+				'/img/GDesign/CL11.png'
 			);
 			include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
 			?>

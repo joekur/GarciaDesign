@@ -56,7 +56,31 @@
 			</div>
 		</div>
 		
-		<?= paginate(2) ?>
+		<div class="sub_content">
+
+			<div class="left">
+				<div id="Free_player" class="video_player">
+				</div>
+				<script>
+					flowplayer("Free_player", "/video/flowplayer/flowplayer-3.2.7.swf",  {
+						// player configuration goes here
+						clip: {
+							url: '/video/Free.mp4',
+							autoPlay: false,
+							scaling: 'fit'
+						}
+					});
+				</script>
+			</div>
+			
+			<div class="proj_desc main">
+				<h2>Animated dictionary</h2>
+			
+				<p>Created in Flash</p> 
+			</div>
+		</div>
+		
+		<?= paginate(3) ?>
 		
 		
 	</div>

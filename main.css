@@ -5,7 +5,8 @@ body {
 	
 	background: white;
 	
-	font-family: Helvetica, Arial, sans-serif;
+	#font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Ruluko', sans-serif;
 }
 
 :focus {
@@ -296,7 +297,7 @@ img.project {
 /* --------- SLIDESHOW ----------- */
 
 .slideshow-screen {
-	width: 600px;
+	width: 531px;
 	height: 410px;
 	background-color: #FFFFFF;
 	float: left;
@@ -304,7 +305,7 @@ img.project {
 }
 
 .picture-container {
-	width: 600px;
+	width: 531px;
 	height 410px;
 	position: absolute;
 	visibility: hidden;
@@ -315,7 +316,7 @@ img.project {
 }
 
 img.big-picture {
-	max-width: 600px;
+	max-width: 531px;
 	max-height: 410px;
 	display: block;
 	margin: 0 auto;

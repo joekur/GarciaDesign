@@ -20,10 +20,20 @@
 	
 	<div class="slideshow-sidebar">
 		
-		<? $ind = 0; ?>
+		<?
+		$ind = 0;
+		$over_four = false;
+		?>
 		<? foreach($images as $image) { ?>
 			<? $path_parts = pathinfo($image); ?>
 			<? $thumb_path = $path_parts['dirname'] . "/" . $path_parts['filename'] . "tn." . $path_parts['extension']; ?>
+			
+			<? if ($ind == 4) { ?>
+				<? $over_four = true; ?>
+				</div>
+				<div class="slideshow-sidebar">
+			<? } ?>
+			
 			<? if ($ind == 0) { ?>
 				<div class="thumb-container active">
 			<? } else { ?>
@@ -36,9 +46,6 @@
 		
 	</div>
 	
-	<div class="slideshow-bottom">
-		<div class="left-arrow"></div>
-		<div class="right-arrow"></div>
-	</div>
+
 	
 </div>

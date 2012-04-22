@@ -6,8 +6,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Garcia Design</title>
-		<link href="main.css?v=2" rel="stylesheet" type="text/css" media="screen" />
+		<link href="main.css?v=3" rel="stylesheet" type="text/css" media="screen" />
 		
+		<link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
 		<script src="js/imagesLoaded.js"></script>
