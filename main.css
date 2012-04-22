@@ -292,6 +292,82 @@ img.project {
 	background: black;
 }
 
+
+/* --------- SLIDESHOW ----------- */
+
+.slideshow-screen {
+	width: 600px;
+	height: 410px;
+	background-color: #FFFFFF;
+	float: left;
+	position: relative;
+}
+
+.picture-container {
+	width: 600px;
+	height 410px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.picture-container.active {
+	
+}
+
+img.big-picture {
+	max-width: 600px;
+	max-height: 410px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.slideshow-sidebar {
+	float: left;
+}
+
+.slideshow-thumbnail {
+	width: 80px;
+	height: 80px;
+	background: black;
+
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+	
+	cursor: pointer;
+	display: block;
+}
+
+.slideshow-thumbnail:hover {
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+
+.thumb-container.active .slideshow-thumbnail {
+	opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+
+.thumb-container {
+	width: 80px;
+	height: 80px;
+	background: black;
+	margin: 0 0 15px 15px;
+	border: 2px solid #CCC;
+	
+	transition: border-color 0.5s;
+	-moz-transition: border-color 0.5s; /* Firefox 4 */
+	-webkit-transition: border-color 0.5s; /* Safari and Chrome */
+	-o-transition: border-color 0.5s; /* Opera */
+}
+.thumb-container.active {
+	border-color: #bd282e;
+}
+
 /*------------------------------------- FONTS -----------------------------------------*/
 
 @font-face {

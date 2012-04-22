@@ -33,16 +33,26 @@
 		
 		
 		<div class="sub_content">
-			
+
 			<div class="left">
-				<div id="experience_player" class="video_player">
+				<div id="reach_player" class="video_player">
 				</div>
+				<script>
+					flowplayer("reach_player", "/video/flowplayer/flowplayer-3.2.7.swf",  {
+						// player configuration goes here
+						clip: {
+							url: '/video/reach.mp4',
+							autoPlay: false,
+							scaling: 'fit'
+						}
+					});
+				</script>
 			</div>
 			
 			<div class="proj_desc main">
-				<h2>AWAKENING PART 2</h2>
+				<h2>REACH STUDIO</h2>
 			
-				<p>This is the second page</p> 
+				<p>A collaboration project</p> 
 			</div>
 		</div>
 		

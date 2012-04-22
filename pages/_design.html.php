@@ -46,6 +46,57 @@
 			
 		</div>
 		
+		<div class="sub_content">
 		
+			<?php
+				$tl_img = "/img/GDesign/ecp.png";
+				$tr_img = "/img/GDesign/Building.png";
+				$bl_img = "/img/GDesign/rose.png";
+				$br_img = "/img/photos/competition.jpg";
+				include($_SERVER['DOCUMENT_ROOT'] . "/partials/_photo_box.html.php");
+			?>
+			
+			<div class="proj_desc main">
+				
+
+			</div>
+			
+			<div class="proj_desc top_left">
+			  
+			</div>
+			
+			<div class="proj_desc top_right">
+				
+			</div>
+			
+			<div class="proj_desc bottom_left">
+			  
+			</div>
+			
+			<div class="proj_desc bottom_right">
+			  
+			 </div>
+			
+		</div>
+		
+		
+		<div class="sub_content">
+		
+				
+			<?php
+			$images = array(
+				'/img/GDesign/CL11.png',
+				'/img/GDesign/CL2.png',
+				'/img/GDesign/CL3.png'
+			);
+			include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
+			?>
+	
+			
+		</div>
+		
+		
+		
+		<?= paginate(3) ?>
 	</div>
 </div>
