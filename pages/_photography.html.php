@@ -26,15 +26,15 @@
 			</div>
 			
 			<div class="proj_desc top_right">
-			  top right photo
+			
 			</div>
 			
 			<div class="proj_desc bottom_left">
-			  bottom left photo
+			  
 			</div>
 			
 			<div class="proj_desc bottom_right">
-			  bottom right photo
+			 
 			</div>
 			
 		</div>

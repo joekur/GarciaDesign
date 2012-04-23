@@ -34,7 +34,11 @@
 			</div>
 			
 			<div class="proj_desc bottom_right">
-			  <h3>Bottom right: "Flor"</h3>
+			  <h3>"Flor"</h3>
+			  
+			  <p>In order to create this piece I took photos that I had shot and manipulated
+			  	them using photoshop. I then executed the design using paper and an exacto knife.</p>
+			  
 			  Tools used: Black and white paper, Exacto knife, Rubber Cement
 			</div>
 			

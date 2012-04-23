@@ -24,14 +24,14 @@
 					</div>
 					<div class="photo bottom_right">
 						<div class="photo_wrapper" data-orig_width="200" data-orig_height="220">
-							<img src="/img/Erica2.jpg" class="project">
+							<img src="/img/Erica.png" class="project">
 						</div>
 					</div>
 				</div>
 			</div>
 			
 			<div class="proj_desc persistent">
-				<h4>Interested in working with me? garciadesign.me@gmail.com</h4>
+				<h4>Interested in working with me? <a href="mailto:garciadesign.me@gmail.com">garciadesign.me@gmail.com</a></h4>
 			</div>
 		
 		</div>
