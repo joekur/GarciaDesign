@@ -2,6 +2,9 @@
 	<!-------------------------------- GRAPHIC DESIGN ------------------------------------->
 	<div class="content">
 		
+		
+		
+		
 		<div class="sub_content active">
 		
 			<?php
@@ -48,6 +51,10 @@
 			</div>
 			
 		</div>
+		
+		
+		
+
 		
 		<div class="sub_content">
 		

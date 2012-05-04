@@ -6,6 +6,7 @@ $(document).ready( function() {
 	var body = $('body');
 	var bigPictures = $('.big-picture');
 	
+	
 	bigPictures.imagesLoaded(function() {
 		
 		bigPictures.each(function() {

@@ -14,7 +14,7 @@
 					</div>
 					<div class="photo top_right">
 						<div class="photo_wrapper noClick">
-							<img src="/img/Chere.jpg" class="project">
+							<img src="/img/Corner.jpg" class="project">
 						</div>
 					</div>
 					<div class="photo bottom_left">
@@ -31,7 +31,12 @@
 			</div>
 			
 			<div class="proj_desc persistent">
-				<h4>Interested in working with me? <a href="mailto:garciadesign.me@gmail.com">garciadesign.me@gmail.com</a></h4>
+				
+			<h3>Design is everywhere...<br>and I do it all!</h3>
+				
+				<p>Branding, graphic, industrial, interactive, motion, print, user interface and web design </p>
+				
+				<p>Interested in working with me? <a href="mailto:garciadesign.me@gmail.com">garciadesign.me@gmail.com</a><br>Phone: 248-321-5714</p>
 			</div>
 		
 		</div>
