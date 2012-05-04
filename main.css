@@ -1,5 +1,5 @@
 body {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: 0;
 	padding: 0;
 	
@@ -367,6 +367,17 @@ img.big-picture {
 }
 .thumb-container.active {
 	border-color: #bd282e;
+}
+
+
+
+.ad-gallery {
+	padding: 0 30px;
+}
+
+.ad-thumb-list img {
+	width: 80px;
+	height: 80px;
 }
 
 /*------------------------------------- FONTS -----------------------------------------*/

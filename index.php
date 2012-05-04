@@ -6,15 +6,18 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Garcia Design</title>
+		
+		<link href="ad-gallery/jquery.ad-gallery.1.2.5.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="main.css?v=3" rel="stylesheet" type="text/css" media="screen" />
 		
 		<link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
-		<script src="js/imagesLoaded.js"></script>
+		<!--<script src="js/imagesLoaded.js"></script>-->
 		<script src="js/scrolling.js"></script>
 		<script src="js/photos.js"></script>
-		<script src="js/slideshow.js"></script>
+		<script src="ad-gallery/jquery.ad-gallery.1.2.5.js"></script>
+		<script src="js/galleries.js"></script>
 		<script src="/video/flowplayer/flowplayer-3.2.6.min.js"></script>
 		
 		
