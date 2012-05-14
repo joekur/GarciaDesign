@@ -5,7 +5,7 @@
 					
 		<div class="home_content">
 		
-			<a href="docs/EricaGarciasResume.pdf" target="_blank"><img src="img/Dresume.png" alt="resume" /></a>
+			<a href="docs/EricaGarciaRes.pdf" target="_blank"><img src="img/Dresume.png" alt="resume" /></a>
 
 		</div>
 	</div>

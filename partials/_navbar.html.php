@@ -14,13 +14,13 @@
 	</a>
 	<a href="#design" class="nav_icon">
 		<img src="/img/navbar/Des.png">
-		<div class="label">graphic design</div>
+		<div class="label">graphic + web design</div>
 	</a>
 	<a href="#studio" class="nav_icon">
 		<img src="/img/navbar/paint.png">
 		<div class="label">studio work</div>
 	</a>
-		<a href="#resume" class="nav_icon">
+	<a href="#resume" class="nav_icon">
 		<img src="/img/navbar/Resume.png">
 		<div class="label"></div>
 	</a>	

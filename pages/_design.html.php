@@ -1,5 +1,5 @@
 <div class="page" id="design">
-	<!-------------------------------- GRAPHIC DESIGN ------------------------------------->
+	<!-------------------------------- GRAPHIC & WEB DESIGN ------------------------------------->
 	<div class="content">
 		
 		
@@ -52,6 +52,27 @@
 			
 		</div>
 		
+				<div class="sub_content">
+		
+				
+			<?php
+			$images = array(
+				'/img/GDesign/K.png',
+				'/img/GDesign/K3.png',
+				'/img/GDesign/K4.png',
+				'/img/GDesign/K6.png',
+				'/img/GDesign/K11.png',
+				'/img/GDesign/K8.png',
+				'/img/GDesign/K9.png',
+				'/img/GDesign/K10.png',
+				
+			);
+			include($_SERVER['DOCUMENT_ROOT'] . '/partials/_slideshow.html.php');
+			?>
+	
+			
+		</div>
+
 		
 		
 
@@ -60,9 +81,9 @@
 		
 			<?php
 				$tl_img = "/img/GDesign/ecp.png";
-				$tr_img = "/img/GDesign/Building.png";
+				$tr_img = "/img/GDesign/Imagination1.jpg";
 				$bl_img = "/img/GDesign/rose.png";
-				$br_img = "/img/photos/competition.jpg";
+				$br_img = "/img/GDesign/Panda.png";
 				include($_SERVER['DOCUMENT_ROOT'] . "/partials/_photo_box.html.php");
 			?>
 			
@@ -86,9 +107,9 @@
 			</div>
 			
 			<div class="proj_desc top_right">
-				<h2>MANIPULATION</h2>
+				<h2>IMAGINATION</h2>
 				
-				<p>This image was created in photoshop using multiple images which I took while in Ann Arbor.</p> 
+				<p>Poster </p> 
 				
 				<p>Tools used: Cannon t2i, Photoshop </p>
 			</div>
@@ -96,9 +117,7 @@
 			<div class="proj_desc bottom_left">
 			  <h2>ROSE</h2>
 				
-				<p>How do you describe a word using type? Especially in a unique way. It's tough, it takes a lot 
-				   of drafts... a lot of bad ideas and if you have a good sense of humor, several good laughs.</p> 
-				
+				<p>
 				
 				<p>Tools used: Illustrator</p>
 			</div>
@@ -132,6 +151,6 @@
 		
 		
 		
-		<?= paginate(3) ?>
+		<?= paginate(4) ?>
 	</div>
 </div>

@@ -45,7 +45,7 @@
 				$tl_img = "/img/photos/sscrabble.jpg";
 				$tr_img = "/img/photos/Newborn.jpg";
 				$bl_img = "/img/photos/joe.png";
-				$br_img = "/img/photos/competition.jpg";
+				$br_img = "/img/photos/sunset.png";
 				include($_SERVER['DOCUMENT_ROOT'] . "/partials/_photo_box.html.php");
 			?>
 			
