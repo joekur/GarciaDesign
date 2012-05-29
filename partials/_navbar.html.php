@@ -28,5 +28,11 @@
 	<a href="http://www.garcialuckdesign.wordpress.com" class="nav_icon" target="_blank">
 		<img src="/img/navbar/Blog.png">
 		<div class="label"></div>
+	</a>
+	
+		<a href="#contact" class="nav_icon">
+		<img src="/img/navbar/Contact.png">
+		<div class="label"></div>
 	</a>	
+		
 </div>

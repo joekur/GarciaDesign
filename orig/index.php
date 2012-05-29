@@ -23,10 +23,12 @@
 			<a id="logo" class="selected" href="#home">
 				<img src="/img/navbar/GPLogo.png">
 			</a>
+			
 			<a href="#motion" class="nav_icon"><img src="/img/navbar/Rec.png"></a>
 			<a href="#photography" class="nav_icon"><img src="/img/navbar/cam.png"></a>
 			<a href="#design" class="nav_icon"><img src="/img/navbar/design.png"></a>
 			<a href="#studio" class="nav_icon"><img src="/img/navbar/paint.png"></a>
+		
 		</div>
 		
 		<div class="wrapper">

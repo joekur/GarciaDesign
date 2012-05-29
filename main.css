@@ -89,9 +89,10 @@ a#logo img {
 }
 
 .content {
-	width: 800px;
-	height: 450px;
+	width: 760px;
+	height: 430px;
 	margin: 0 auto;
+	padding: 20px 0 0 20px;
 	top: 20%;
 	position: relative;
 	left: 120px;
@@ -104,7 +105,7 @@ a#logo img {
 
 .content .left {
 	height: 100%;
-	width: 500px;
+	width: 480px;
 	position: relative;
 }
 
@@ -150,7 +151,7 @@ a#logo img {
 	position: absolute;
 	right: 0;
 	top: 0;
-	padding: 20px 20px 20px 10px;
+	padding: 0 20px 20px 10px;
 	display: none;
 }
 
@@ -178,8 +179,8 @@ a#logo img {
 	height: 402px;
 	border: 4px solid black;
 	position: relative;
-	top: 20px;
-	left: 20px;
+	top: 0;
+	left: 0;
 	background: black;
 }
 
@@ -288,8 +289,8 @@ img.project {
 	height: 402px;
 	border: 4px solid black;
 	position: relative;
-	top: 20px;
-	left: 20px;
+	top: 0;
+	left: 0;
 	background: black;
 }
 
@@ -382,6 +383,17 @@ img.big-picture {
 
 .ad-controls {
 	margin-bottom: 5px;
+}
+
+/* MISC */
+
+iframe {
+	position: relative;
+	left: -20px;
+}
+
+a[href="http://www.foxyform.com"] {
+	display: none;
 }
 
 /*------------------------------------- FONTS -----------------------------------------*/

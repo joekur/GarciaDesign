@@ -59,6 +59,8 @@
 		<?php include('pages/_resume.html.php'); ?>
 		
 		<?php include('pages/_studio.html.php'); ?>
+		
+		<?php include('pages/_contact.html.php'); ?>
 			
 				
 	</body>
