@@ -132,6 +132,22 @@ a#logo img {
 	margin: 0 auto;
 }
 
+.pagination-container .left-arrow,
+.pagination-container .right-arrow {
+	cursor: pointer;
+	width: 11px;
+	height: 14px;
+	display: inline-block;
+}
+.pagination-container .left-arrow {
+	background: url('img/icons/Lred2.png');
+	margin-right: 7px;
+}
+.pagination-container .right-arrow {
+	background: url('img/icons/Rred2.png');
+	margin-left: 7px;
+}
+
 .pagination {
 	background: url('img/icons/pagination.png');
 	width: 12px;

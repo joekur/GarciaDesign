@@ -94,10 +94,7 @@
 			<div class="proj_desc top_left">
 				<h2>MY CREATIVE PROCESS</h2>
 				
-				<p>Every person has a creative process, this is mine! I strive to make
-				my creative process an adventure, so that when others see me working, they
-				want to be on my team.
-				
+				<p>Every person has a creative process, this is mine!
 				Try to map out your creative process. Even include those quirks that make your
 				creative process unique. You might end up learning something new about yourself.</p> 
 				

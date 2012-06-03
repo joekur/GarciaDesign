@@ -32,8 +32,7 @@
 				<h2>AWAKENING</h2>
 			
 				<p>This movie was inspired by my daily experience of waking up to blurred vision 
-				   until I put my contacts in. When I put them in it always amazes me how everything looks so much clearer! 
-				   Gathering together the images, sounds, and notes I obtained about my morning I came up with a story-line 
+				   until I put my contacts in. Gathering together the images, sounds, and notes I obtained about my morning I came up with a story-line 
 				   that would go with the abstract images I took.The story-line led to including whimsical sound rather 
 				   than literal sound. The motion that i decided to include helped create a whimsical-dream-like land for the viewer.</p> 
 				

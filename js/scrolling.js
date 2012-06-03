@@ -123,19 +123,47 @@ $(document).ready(function() {
     });
     
     $('.pagination').click( function() {
-    	changePage($(this));
+    	var container = $(this).parent();
+    	var paginations = container.children('.pagination');
+    	var toIndex = paginations.index($(this));
+    	console.log(toIndex);
+    	changePage(container, toIndex);
     });
     
-    function changePage(pagination) {
+    $('.pagination-container .left-arrow').click( function() {
+    	var container = $(this).parent();
+    	var paginations = container.children('.pagination');
+    	var current_pagination = paginations.filter('.active');
+    	var current_index = paginations.index(current_pagination);
+    	var next_index = current_index - 1;
+    	if (next_index < 0) {
+    		next_inex = paginations.length - 1;
+    	}
+    	changePage(container, next_index);
+    });
+    
+    $('.pagination-container .right-arrow').click( function() {
+    	var container = $(this).parent();
+    	var paginations = container.children('.pagination');
+    	var current_pagination = paginations.filter('.active');
+    	var current_index = paginations.index(current_pagination);
+    	var next_index = current_index + 1;
+    	if (next_index >= paginations.length) {
+    		next_index = 0;
+    	}
+    	changePage(container, next_index);
+    });
+    
+    function changePage(container, toIndex) {
+    	var paginations = container.children('.pagination');
+		var pagination = paginations.eq(toIndex);
     	
     	if (body.hasClass('animating') || pagination.hasClass('active')) {
 			return;
 		}
 		body.addClass('animating');
 		
-		var container = pagination.parent();
-		var paginations = container.children();
-		var ind = paginations.index(pagination);
+		var ind = toIndex;
 		paginations.removeClass('active');
 		pagination.addClass('active');
 		
