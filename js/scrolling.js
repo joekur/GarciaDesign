@@ -11,7 +11,6 @@ $(document).ready(function() {
 	
 	
 	function resetPhotobox(photobox) {
-		console.log(photobox);
 		photobox.find('.fullscreen').trigger('click');
 	}
 	
@@ -26,6 +25,7 @@ $(document).ready(function() {
 	}
 	
 	function navUnhover() {
+		if ($(this).parent().hasClass('selected')) {return;}
 		var label = $(this).siblings('.label');
 		label.stop(true).animate({opacity : 0}, 300);
 	}
@@ -53,7 +53,7 @@ $(document).ready(function() {
 	    var top_pad = (height - content_height) / 2;
 	    $('.content').css({top: top_pad});
 	 
-	    //if the item is displayed incorrectly, set it to the corrent pos
+	    // if the item is displayed incorrectly, set it to the corrent pos
 	    body.scrollTo($('#navbar a.selected').attr('href'), 0);
 	         
 	}
@@ -75,17 +75,37 @@ $(document).ready(function() {
 			return true;
 		}
 		
+		if ($(this).hasClass('selected')) {
+			return false;
+		}
+		
 		event.preventDefault();
-        
-        // get destination div (id)
-        var destination_id = $(this).attr('href');
-        var current_page_id = $('#navbar a.selected').attr('href');
+		
+		var this_icon = $(this);
+		
+		var selected_link = navLinks.filter('.selected');
+		
+		var destination_id = $(this).attr('href');
+        var current_page_id = selected_link.attr('href');
         var destination_page = $(destination_id);
         var current_page = $(current_page_id);
-        
-        if (destination_id == current_page_id) {
+		
+		if (destination_id == current_page_id) {
         	return false;
         }
+        
+		
+		// if click on logo, act as if clicked on HOME icon
+		if (destination_id === '#home') {
+			this_icon = $('#navbar .nav_icon[href="#home"]');
+		}
+		
+		
+		selected_link.children('.label').stop(true).animate({opacity : 0}, 300);
+		selected_link.children('.circle').fadeOut(300);
+		this_icon.children('.circle').fadeIn(300);
+
+        
         
         // move destination page to directly below current location
         destination_page.insertAfter(current_page);
@@ -101,7 +121,7 @@ $(document).ready(function() {
         
         // add 'selected' class to this link
         navLinks.removeClass('selected');
-        $(this).addClass('selected');
+        this_icon.addClass('selected');
         
         resizePanel();
          
@@ -126,7 +146,6 @@ $(document).ready(function() {
     	var container = $(this).parent();
     	var paginations = container.children('.pagination');
     	var toIndex = paginations.index($(this));
-    	console.log(toIndex);
     	changePage(container, toIndex);
     });
     

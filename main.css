@@ -57,6 +57,10 @@ a#logo img {
 	border: none;
 }
 
+#navbar .selected .label {
+	display: block;
+}
+
 #navbar a .label {
 	position: absolute;
 	right: 65px;
@@ -68,6 +72,22 @@ a#logo img {
 	color: #777;
 	opacity: 0;
 	filter:alpha(opacity=0);
+}
+
+#navbar .circle {
+	width: 8px; height: 8px;
+	position: absolute;
+	top: 17px;
+	left: 60px;
+	background: red;
+	display: none;
+}
+#navbar .selected .circle {
+	display: block;
+}
+
+#navbar .hack_height {
+	padding: 8px 0;
 }
 
 .wrapper {
